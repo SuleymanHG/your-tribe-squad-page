@@ -1,0 +1,119 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+article{
+  overflow:auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  background: rgb(0,239,255);
+  background: linear-gradient(0deg, rgb(205, 205, 205) 40%, #dddddd 100%);
+  max-width: 25em;
+  min-width: 20em;
+  min-height: 35em;
+  max-height: 40em;
+  border-radius:2em;
+  border: 5px;
+  
+  
+}
+h1{
+  text-align: center;
+  line-height: 0;
+  top:10px;
+  margin-top:2em;
+}
+
+h2{
+  text-align: center;
+  font-size: 15px;
+  line-height: 0.5;
+}
+
+/* code van de profielfoto */
+img{
+  position: relative;
+  width: 6em;
+  height: 6em;
+  top:2.5em;
+  border-radius:10em;
+  border: 7px;
+  border-color: rgb(255, 255, 255);
+  border-style:solid;
+  margin-left:30px;
+  
+}
+/* code voor de QR code  */
+.qrcodegit{
+  margin-left:0;
+  border-radius: 0;
+  top: 0;
+  width: 10em;
+  height: 10em;
+}
+/* Code voor de logos van de socials */
+.logos{
+  margin-left:0;
+  border-radius: 0;
+  top: 0;
+  padding-top: 0;
+  padding-bottom:0;
+  width: 30px;
+  height: 30px;
+}
+
+div{
+  background-color: white;
+  border-radius:10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left:15px;
+  padding-right:15px;
+  margin-top:5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Code voor de blokken met info */
+.info{
+  display: block;
+  margin:auto;
+  margin-top:10px;
+  padding-left:0;
+  padding-right:0;
+  max-width:340px;
+  text-align: center;
+}
+
+/* Code voor de links naar de socials */
+a {
+  display:block;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin: auto;
+  margin-top:10px;
+  width:340px;
+  cursor: pointer;
+  border: solid rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: 671ms;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  --hover-width: 390px;
+  --hover-bgc: #f4f4f4;
+  --hover-color: #000000;
+  text-decoration: none;
+  
+  }
+  
+  /* Code voor de hover functie van de knoppen */
+  .hoverbutton:hover{
+  color: rgb(0, 0, 0);
+  width: 390px;
+  background: rgb(244, 244, 244) none repeat scroll 0% 0% / auto padding-box border-box;
+  }

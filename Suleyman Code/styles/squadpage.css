@@ -1,0 +1,67 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    background: linear-gradient(90deg, #252525 0%, #636262 64%, #888888 100%);
+    background: -moz-linear-gradient(90deg, #252525 0%, #636262 64%, #888888 100%);
+    
+}
+
+ul{
+    display: grid;;
+    gap: 1em;
+    grid: auto-flow / 1fr 1fr 1fr;
+}
+
+li{
+    list-style: none;
+    width: 360px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+
+img{
+    display: grid;
+    
+    width:100px;
+    border-radius: 10px;
+    
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    width: 75%;
+} 
+
+ul{
+  display: grid;
+  grid-auto-flow: column;
+  align-items:end;
+  grid-auto-columns: calc((100% / 4 ) - 12px);
+  overflow: hidden;
+  overflow-x: scroll;
+  gap: 16px;
+  scroll-behavior: smooth;
+}
+ li{
+    display: grid;
+
+ }
+
+ a{
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    color:white;
+    background-color: #252525;
+    border-radius:10px;
+ }
+ .links-kaartje{
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;
+    gap: .2em;
+    flex-wrap: wrap;
+    
+ }
