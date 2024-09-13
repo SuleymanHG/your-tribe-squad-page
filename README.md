@@ -1,10 +1,11 @@
 
-# Squad page
+# Squad pages
+Süleyman Squadpages:
+1. https://suleymanhg.github.io/your-tribe-squad-page/Suleyman%20Code/squadpage.html
+2. https://suleymanhg.github.io/your-tribe-squad-page/Suleyman%20Code/test.html
 
-Ontwerp en maak met een team een Squad Page met HTML, CSS en JS.
+Kerem Suqadpage:
+1. https://suleymanhg.github.io/your-tribe-squad-page/Kerem-map/index.html
 
-De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/INSTRUCTIONS.md)
-
-## Licentie
-
-This project is licensed under the terms of the [MIT license](./LICENSE).
+Anouar squadpage:
+1. https://suleymanhg.github.io/your-tribe-squad-page/Anouar/index1.html
