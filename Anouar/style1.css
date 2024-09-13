@@ -54,3 +54,16 @@ h2{
 h1{
     padding: 15px;
 }
+
+li{
+    text-decoration: none;
+   display: inline-flex;
+}
+
+.title{
+font-size: 2em;
+}
+.other{
+    margin-left: 2em;
+    font-size: 1.5em;
+}
