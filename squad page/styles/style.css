@@ -50,21 +50,15 @@ a:hover{
 .container{
   display:grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  overflow: auto;
+  overflow: scroll;
   scrollbar-width: 300px;
   overflow-y: hidden;
   gap:1.5em;
   grid-auto-flow: column;
   height: 500px;
-  
-  
-/* display: flex;
-gap: 1em;
-margin: auto;
-scroll-snap-align: center;
-margin-top: 7em; */
 
 }
+
 
 li{
     list-style: none;
