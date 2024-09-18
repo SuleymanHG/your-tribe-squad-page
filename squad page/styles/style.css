@@ -37,22 +37,28 @@ a{
 
 
 .container{
-display: flex;
+  display:grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  overflow: auto;
+  scrollbar-width: 300px;
+  overflow-y: hidden;
+  gap:1em;
+  grid-auto-flow: column;
+/* display: flex;
 gap: 1em;
-/* grid: auto-flow / 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
-/* align-content: center; */
 margin: auto;
-/* width: 90%; */
-/* padding: 50px; */
 scroll-snap-align: center;
-margin-top: 7em;
+margin-top: 7em; */
 
 }
+
 li{
     list-style: none;
     background-color: white;
     padding: 1em;
     border-radius: 1em;
+    width: 300px;
+    height:400px;
     
 }
 
