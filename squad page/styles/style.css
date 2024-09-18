@@ -57,9 +57,21 @@ li{
     background-color: white;
     padding: 1em;
     border-radius: 1em;
+<<<<<<< HEAD
+    transition-duration: 1s;
+}
+
+
+li:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+	scale: 1.1;
+=======
     width: 300px;
     height:400px;
     
+>>>>>>> 7f179f917b99b3ee84d7c1c0c3772a54c5e7ba13
 }
 
 
