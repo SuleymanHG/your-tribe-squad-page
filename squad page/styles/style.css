@@ -38,6 +38,11 @@ a{
   border-radius: 4px;
   text-decoration: none;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition-duration: .3s;
+  margin-top: 1em;
+}
+a:hover{
+    scale:1.1 0.9;
 }
 
 
