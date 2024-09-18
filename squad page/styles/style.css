@@ -53,7 +53,15 @@ li{
     background-color: white;
     padding: 1em;
     border-radius: 1em;
-    
+    transition-duration: 1s;
+}
+
+
+li:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+	scale: 1.1;
 }
 
 
