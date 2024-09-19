@@ -207,6 +207,12 @@ nav{
     width: 120px;
   }
 
+  .navbar:hover{
+    color: rgb(255, 255, 255);
+    width: 55;
+    background: rgb(0, 102, 204) none repeat scroll 0% 0% / auto padding-box border-box;
+  }
+
 }
 
 /* Tablet View Voor schermen tussen de 481px en 768px (zoals tablets), stel je een grid in met drie kolommen. */
