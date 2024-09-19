@@ -20,10 +20,13 @@ gap:1.5em;
 grid-auto-flow: column;
 margin-top: 7em;
 border-radius: 2em;
+
 }
 
 img{
     border-radius:  2em;
+    border: 3px solid #ffffff;
+    box-shadow: rgba(270, 255, 255, 0.35) 0px 5px 15px;
 }
 
 header{
@@ -35,11 +38,14 @@ header{
 
 .title{
     font-size:2em;
+    font: small-caps bold 24px/1 sans-serif;
 }
 
 .other{
     margin-left: 1em;
     font-size: 3em;
+    font: small-caps bold 24px/1 sans-serif;
+    
  }
 
 li{
