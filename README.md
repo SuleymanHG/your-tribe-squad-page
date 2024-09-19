@@ -26,7 +26,8 @@ Kerem Squadpage: (swipe met touchpad, niet met muis)
 Anouar squadpage:
 1. https://suleymanhg.github.io/your-tribe-squad-page/Anouar/index1.html
 
+Info: Kerem Tutucu
 
 Ik ben Kerem Tutucu een toegewijde student die altijd serieus en vastberaden werkt om
-taken tot een succesvol einde te brengen. Ik ben 20 jaar oud en heb al een beetje ervaring met code.
-Ik vond het team werk met Anouar en Suleyman goed verlopen. Iedereen was zeer serieus en gemotiveerd.
+taken tot een succesvol einde te brengen. Ik ben 21 jaar oud en heb al een beetje ervaring met code.
+Ik vond het team werk met Anouar en Suleyman goed verlopen. Iedereen was zeer serieus en gemotiveerd. We hadden een taken verdeling zodat iedereen aan de slag kon gaan.
