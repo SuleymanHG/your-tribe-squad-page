@@ -31,3 +31,7 @@ Info: Kerem Tutucu
 Ik ben Kerem Tutucu een toegewijde student die altijd serieus en vastberaden werkt om
 taken tot een succesvol einde te brengen. Ik ben 21 jaar oud en heb al een beetje ervaring met code.
 Ik vond het team werk met Anouar en Suleyman goed verlopen. Iedereen was zeer serieus en gemotiveerd. We hadden een taken verdeling zodat iedereen aan de slag kon gaan.
+
+Info Süleyman Huzeyfe Gökgül:
+
+Ik ben Süleyman 20 jaar oud en een eerste jaars student bij de AD FDND. Ik heb oke ervaring met code en design. De samenwerking met Anouar en Kerem ging heel goed, we hebben met veel motivatie aan het project gewerkt.
