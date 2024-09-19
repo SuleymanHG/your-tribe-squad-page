@@ -26,6 +26,9 @@ Kerem Squadpage: (swipe met touchpad, niet met muis)
 Anouar squadpage:
 1. https://suleymanhg.github.io/your-tribe-squad-page/Anouar/index1.html
 
+Info: Anouar Aït Brahim
+Ik ben Anouar, 19 jaar en ik ben net begonnen met FDND. ik heb samengewerkt met Süleyman en Kerem, dit verliep goed en we zijn trots op wat we tot nu toe gemaakt hebben. 
+
 Info: Kerem Tutucu
 
 Ik ben Kerem Tutucu een toegewijde student die altijd serieus en vastberaden werkt om
