@@ -40,6 +40,7 @@ a{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition-duration: .3s;
   margin-top: 1em;
+  width: 10em;
 }
 a:hover{
     scale:1.1 0.9;
