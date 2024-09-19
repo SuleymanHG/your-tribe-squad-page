@@ -5,7 +5,16 @@
 Wij hebben ervoor gekozen om een squadpage te maken waar we horizontaal kunnen scrollen, zo kan je iedereen zijn kaarten op een makkelijke manier bekijken en testen. 
 
 Features waar wij trots op zijn:
-1. 
+1. Wij zijn trots op de carousel die we hebbnen gemaakt met css.
+![Schermafbeelding 2024-09-19 110911](https://github.com/user-attachments/assets/35dbdb30-0bf9-4f13-89b9-111fe2540367)
+
+2. We zijn ook trots op de hover effect die we hebbne toegevoegd aan de kaarten.
+  ![Schermafbeelding 2024-09-19 110923](https://github.com/user-attachments/assets/51d721fb-ae0f-4be4-b849-b8c4f7a21f45)
+
+3. De responsiveness zijn we ook heel trots op.
+
+Voorbeelden:
+
 
 Süleyman Squadpages:
 1. https://suleymanhg.github.io/your-tribe-squad-page/Suleyman%20Code/squadpage.html
