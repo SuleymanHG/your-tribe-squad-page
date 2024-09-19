@@ -16,3 +16,32 @@ gap:1.5em;
 grid-auto-flow: column;
 margin-top: 7em;
 }
+
+header{
+    display: grid;
+    grid-auto-flow: column;
+    color: rgb(58, 64, 88);
+   
+}
+
+.title{
+    font-size:2em;
+}
+
+.other{
+    margin-left: 1em;
+    font-size: 3em;
+ }
+
+li{
+    text-decoration: none;
+    display: inline-flex;
+}
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+}
+
