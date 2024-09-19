@@ -2,6 +2,7 @@ body{
   background: #0508A9;
   background: radial-gradient(at center, #0508A9, #010101);
   margin: 25px;
+  overflow-y: hidden;
 }
 
 div {
