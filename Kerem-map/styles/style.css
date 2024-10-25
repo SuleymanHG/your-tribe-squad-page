@@ -1,93 +1,101 @@
-
-div {
-    display: flex;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-    scroll-behavior: smooth;
-  }
-
-img{
- border: 5px solid #000000;
- border-radius: 10em;
- box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
- 
+/* Basisstijl voor de gehele layout */
+body {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #e642b2);
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: auto;
-    text-align: center;
-    
-
-}
-
-a{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: block;
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4rem;
   text-align: center;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), 1px 1px 0 darkgreen, 1px 1px 0 rgb(0, 0, 0);
+  margin: 1em 0;
+}
+
+.container {
+  display: grid;
+  gap: 1em;
+  padding: 1em;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style: none;
+  background-color: white;
+  padding: 1em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-snap-align: center;
+  text-align: center;
+}
+
+img {
+  border: 5px solid #000000;
+  border-radius: 10em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+p, a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
   padding: 10px 20px;
   background: linear-gradient(0.25turn, #524ec8, #9794e4, #605bdf);
   color: #fff;
   border-radius: 4px;
   text-decoration: none;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 1em;
 }
 
+/* Media queries voor responsive grid-indelingen */
 
-
-.container{
-display: flex;
-gap: 1em;
-/* grid: auto-flow / 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
-/* align-content: center; */
-margin: auto;
-/* width: 90%; */
-/* padding: 50px; */
-scroll-snap-align: center;
-
-}
-li{
-    list-style: none;
-    background-color: white;
-    padding: 1em;
-    border-radius: 1em;
-    
-}
-
-
-body{
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #e642b2);
-}
-
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100px;
-    margin: auto;
-    align-items: center;
-    color: #ffffff;
-    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), 1px 1px 0 darkgreen,
-    1px 1px 0 rgb(0, 0, 0);
-}
-
-
-
-/* Mobile view Als het scherm tussen de 250px en 480px breed is, gebruik dan een grid met één kolom." */
-@media screen and (min-width:250px) and (max-width:480px) {
-    .container{
-      grid-template-columns: repeat(1,1fr);
-    }
+/* Mobile view: Eén kolom */
+@media (max-width: 480px) {
+  .container {
+    grid-template-columns: 1fr;
   }
 
-   /* Tablet View Voor schermen tussen de 481px en 768px (zoals tablets), stel je een grid in met drie kolommen. */
-   @media screen and (min-width:481px) and (max-width:768px) {
-    .container{
-      grid-template-columns: repeat(3,1fr);
-    }
+  h1 {
+    font-size: 2.5rem;
   }
-   /* Laptop View Voor schermen tussen 769px en 1024px (zoals laptops), stel je een grid in met vier kolommen. */
-   @media screen and (min-width:769px) and (max-width:1024px) {
-    .container{
-      grid-template-columns: repeat(4,1fr);
-    }
+}
+
+/* Tablet view: Twee kolommen */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
   }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Laptop view: Drie kolommen */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+/* Desktop view: Vier kolommen */
+@media (min-width: 1025px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
